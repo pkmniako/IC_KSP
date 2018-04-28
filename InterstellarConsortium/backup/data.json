@@ -1,0 +1,126 @@
+{
+  "galaxies": [
+    {
+      "size": "10",
+      "name": "A",
+      "stars": 45,
+      "type": "SBc",
+      "graphY": 186,
+      "graphX": 713
+    },
+    {
+      "size": "14",
+      "name": "B",
+      "stars": 80,
+      "type": "Sb",
+      "graphY": 504,
+      "graphX": 355
+    },
+    {
+      "size": "6",
+      "name": "C",
+      "stars": 25,
+      "type": "S0",
+      "graphY": 628,
+      "graphX": 898
+    },
+    {
+      "size": "2",
+      "name": "D",
+      "stars": 8,
+      "type": "E6",
+      "graphY": 252,
+      "graphX": 807
+    }
+  ],
+  "stars": [
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "Sun",
+      "host": "A",
+      "type": "G"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "1",
+      "host": "A",
+      "type": "M"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "2",
+      "host": "A",
+      "type": "K"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "3",
+      "host": "A",
+      "type": "G"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "4",
+      "host": "A",
+      "type": "F"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "5",
+      "host": "A",
+      "type": "A"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "6",
+      "host": "A",
+      "type": "B"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "7",
+      "host": "A",
+      "type": "O"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "8",
+      "host": "A",
+      "type": "L"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "9",
+      "host": "C",
+      "type": "D"
+    },
+    {
+      "posX": 4,
+      "posY": 0,
+      "posZ": 1,
+      "name": "42",
+      "host": "A",
+      "type": "M"
+    }
+  ]
+}
