@@ -40,42 +40,52 @@
 			"host" = "A",
 			"posX" = 4,
 			"posY" = 0,
-			"posZ" = 1
+			"posZ" = 0
 		},
 		{
-			"name" = "1",
-			"type" = "M",
-			"host" = "A",
-			"posX" = 4,
-			"posY" = 0,
-			"posZ" = 1
-		},
-		{
-			"name" = "2",
+			"name" = "Cercani",
 			"type" = "K",
 			"host" = "A",
+			"posX" = 3.1,
+			"posY" = -0.3,
+			"posZ" = 0.2
+		},
+		
+		
+		{
+			"name" = "Test1",
+			"type" = "M",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "3",
+			"name" = "Test2",
+			"type" = "K",
+			"host" = "B",
+			"posX" = 4,
+			"posY" = 0,
+			"posZ" = 1
+		},
+		{
+			"name" = "Test3",
 			"type" = "G",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "4",
+			"name" = "Test4",
 			"type" = "F",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "5",
+			"name" = "Test5",
 			"type" = "A",
 			"host" = "A",
 			"posX" = 4,
@@ -83,41 +93,41 @@
 			"posZ" = 1
 		},
 		{
-			"name" = "6",
+			"name" = "Test6",
 			"type" = "B",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "7",
+			"name" = "Test7",
 			"type" = "O",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "8",
+			"name" = "Test8",
 			"type" = "L",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "9",
+			"name" = "Test9",
 			"type" = "D",
-			"host" = "C",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
 		},
 		{
-			"name" = "42",
+			"name" = "Test42",
 			"type" = "M",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
