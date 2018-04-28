@@ -87,7 +87,7 @@
 		{
 			"name" = "Test5",
 			"type" = "A",
-			"host" = "A",
+			"host" = "B",
 			"posX" = 4,
 			"posY" = 0,
 			"posZ" = 1
