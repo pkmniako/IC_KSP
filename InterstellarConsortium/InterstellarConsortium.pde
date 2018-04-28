@@ -151,8 +151,8 @@ void draw()
           stroke(90,trans);
           noFill();
           float x, y, z;
-          x = 400+Stars.get(j).posX*(600 / Galaxies.get(window).size);
-          y = hei5+Stars.get(j).posY*(300 / Galaxies.get(window).size);
+          x = 400+StarsOnDemand.get(j).posX*(600 / Galaxies.get(window).size);
+          y = hei5+StarsOnDemand.get(j).posY*(300 / Galaxies.get(window).size);
           z = Stars.get(j).posZ*(300 / Galaxies.get(window).size);
           line(x,y,x,y-z);
 
@@ -161,12 +161,12 @@ void draw()
           if(listNumber >= floor(bar*StarsOnDemand.size()) && listNumber < (bar*StarsOnDemand.size())+10)
           {
             float barY = 0.4*height+19+(listNumber-floor(bar*StarsOnDemand.size()))*38;//-floor(bar*StarsOnDemand.size());
-            fill(getStarColor(Stars.get(j).type));
-            ellipse(0.67*width+19,0.4*height+19+(listNumber-floor(bar*StarsOnDemand.size()))*38,getStarSizeList(Stars.get(j).type),getStarSizeList(Stars.get(j).type));
+            fill(getStarColor(StarsOnDemand.get(j).type));
+            ellipse(0.67*width+19,0.4*height+19+(listNumber-floor(bar*StarsOnDemand.size()))*38,getStarSizeList(StarsOnDemand.get(j).type),getStarSizeList(StarsOnDemand.get(j).type));
             fill(255,trans);
             textAlign(LEFT,CENTER);
             textFont(font20);
-            text(Stars.get(j).name,0.67*width+38,barY);
+            text(StarsOnDemand.get(j).name,0.67*width+38,barY);
             if( checkButton(0.67*width+19,0.4*height+19+(listNumber-floor(bar*StarsOnDemand.size()))*38,19,"CIRCLE") )
             {
               stroke(100,trans);
@@ -186,9 +186,9 @@ void draw()
             }
           }
           
-          fill(getStarColor(Stars.get(j).type));
+          fill(getStarColor(StarsOnDemand.get(j).type));
           noStroke();
-          ellipse(x,y-z,getStarSize(Stars.get(j).type),getStarSize(Stars.get(j).type));
+          ellipse(x,y-z,getStarSize(StarsOnDemand.get(j).type),getStarSize(StarsOnDemand.get(j).type));
       }
     }
     
