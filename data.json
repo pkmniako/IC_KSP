@@ -38,7 +38,7 @@
 			"name" = "Sun",
 			"type" = "G",
 			"host" = "A",
-			"posX" = 4,
+			"posX" = 3,
 			"posY" = 0,
 			"posZ" = 0
 		},
@@ -46,7 +46,7 @@
 			"name" = "Cercani",
 			"type" = "K",
 			"host" = "A",
-			"posX" = 3.1,
+			"posX" = 2.1,
 			"posY" = -0.3,
 			"posZ" = 0.2
 		},
